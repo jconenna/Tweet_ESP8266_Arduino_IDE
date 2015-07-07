@@ -36,7 +36,6 @@ if (client.connect("184.106.153.149", 80))
   client.print("GET /apps/thingtweet/1/statuses/update?key=" + API + "&status=" + tweet + " HTTP/1.1\r\n");
   client.print("Host: api.thingspeak.com\r\n"); 
   client.print("Accept: */*\r\n"); 
-  client.print("User-Agent: Mozilla/4.0 (compatible; esp8266 Lua; Windows NT 5.1)\r\n");
   client.print("\r\n");
 }
 
